@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-over-modal">
+        <div class="content">
+            <h1>Хороший результат !</h1>
+            <p>Но мы все знаем вы можете лучше.
+                Отправьте свой отзыв о нашей платформе
+                по почте
+                <a href="mailto:panovgeorgij819@hmail.com" style="text-decoration: none;">
+                    panovgeorgij819@gmail.com
+                </a>
+            </p>
+            <button id="btn-try-again">Попробуй снова</button>
+        </div>
+    </div>
+    <!--1 викторина-->
+    <div id="DisplayNone">
+    <div class="quiz-container">
+        <div class="question-number">
+            <h3>Вопрос 
+                <span id="number-of-question">1</span>
+                из
+                <span id="number-of-all-questions">2</span>
+            </h3>
+        </div>
+        <div id="question">
+            Какого числа отмечается День программиста
+            (256 день в году) в високосный год?
+        </div>
+        <div class="options">
+            <div id="12September" class="option option1">
+                12 сентября
+            </div>
+            <div id="13September" class="option option2">
+                13 сентября
+            </div>
+            <div id="4December" class="option option3">
+                4 декабря
+            </div>
+            <div id="1September" class="option option4">
+                1 сентября
+            </div>
+        </div>
+        <div class="button">
+            <button id="btn-next">Следующий</button>
+        </div>
+    </div>
+    </div>
+    <!--2 викторина-->
+    <div class="DisplayNone">
+    <div class="quiz-container">
+        <div class="question-number">
+            <h3>Вопрос
+                <span id="number-of-question1">2</span>
+                из
+                <span id="number-of-all-questions1">2</span>
+            </h3>
+        </div>
+        <div id="question1">
+            Мотылек замкнул крылышками контакты.
+            Какое жаргонное слово в программировании
+            появилось по этому случаю?
+        </div>
+        <div class="options">
+            <div id="zero" class="option option1">
+                error
+            </div>
+            <div id="First" class="option option2">
+                bug
+            </div>
+            <div id="Second" class="option option3">
+                breakdown
+            </div>
+            <div id="Third" class="option option4">
+                mistake
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="btn-next1">Финиш</button>
+        </div>
+    </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
